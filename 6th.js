@@ -1,0 +1,8 @@
+const prompt = require("prompt-sync")();
+console.log("Even numbers from 1 to 40:")
+for (let i = 1; i <= 40 ; i++) {
+    if(i % 2 !== 0) {
+        continue;
+    }
+    console.log(i)
+}
